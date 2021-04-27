@@ -1,6 +1,6 @@
 - id: beancount-format
   name: Run bean-format
   description: Let bean-format format your beancount files.
-  entry: format.py
+  entry: beancount_format
   language: python
   files: \.beancount$
