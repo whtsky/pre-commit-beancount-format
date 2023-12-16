@@ -22,3 +22,13 @@ Or, if you use `.bean` as your beancount files' extensions rather than `.beancou
     - id: beancount-format
       files: \.bean$
 ```
+
+To use custom arguments:
+
+```yaml
+- repo: https://github.com/whtsky/pre-commit-beancount-format
+  rev: "2.3.4" # Use the sha / tag you want to point at
+  hooks:
+    - id: beancount-format
+      args: ["--currency-column=60"]
+```
